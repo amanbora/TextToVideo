@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Txt2Vid</title>
+
+
+    <link href="http://swiftline.github.io/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="http://swiftline.github.io/css/landing-page.css" rel="stylesheet">
+
+
+    <link href="http://swiftline.github.io/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <style>
+      .image{
+        height: 100%;
+        min-height: 380px;
+        margin-top: 20px;
+        background: url("https://github.com/amanbora/images/raw/master/Screenshot%202018-11-04%20at%209.40.31%20AM.png") no-repeat center center;
+        background-size: 280px;
+      }
+
+    </style>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="page-scroll navbar-brand">Txt2Vid</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="upload">Try It!</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<section id="intro">
+
+	<div class="intro-header">
+
+		<div class="container header-container">
+
+			<div class="row">
+				<div class="image col-md-4">
+        </div>
+				<div class="intro-message col-md-6" >
+					<h1 style="color:#ff4da6">Txt2Vid</h1>
+					<h3>Txt2Vid is a set of tools to help you create attractive videos from boring articles.</h3>
+
+
+
+
+
+					<iframe style="display: none" src="https://ghbtns.com/github-btn.html?user=swiftline&repo=swiftline&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+
+					<hr class="intro-divider">
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+
+</section>
+
+
+<section style="display: none"id="about" class="container content-section text-center">
+
+</section>
+
+<section id="services">
+
+
+
+
+    <div class="content-section-a">
+
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading" style="color: #8080ff">Whats included</h2>
+                    <p>Txt2Vid consists the following:</p>
+
+<ul>
+<li><strong>Upload</strong>: Choose an article and upload it.</li>
+<li><strong>Convert</strong>:  Convert it to a video with high quality pictures in just one click.</li>
+<li><strong>Download</strong>: Save to your system.</li>
+<li><strong>Share</strong>:  Share with the world</li>
+
+</ul>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="content-section-b" style="display: none">
+
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Installation</h2>
+
+
+<p>You can install Txt2Vid using cocoapods,</p>
+
+<h3 id="cocoapods:4c40a97dcf30b230e73eabba1323c21c">Cocoapods</h3>
+
+<pre><code>use_frameworks!
+pod 'Swiftline'
+</code></pre>
+
+<h3 id="carthage:4c40a97dcf30b230e73eabba1323c21c">Carthage</h3>
+
+<pre><code>github 'Swiftline/Swiftline'
+</code></pre>
+
+<h3 id="cocoapods-rome-plugin:4c40a97dcf30b230e73eabba1323c21c">Cocoapods + Rome plugin</h3>
+
+<p>If you want to use swiftline in a script you can use <a href="https://github.com/neonichu/Rome">Rome</a> cocoapod plugin. This plugin builds the framework from the pod file and place them in a Rome directory.</p>
+
+<pre><code>platform :osx, '10.10'
+plugin 'cocoapods-rome'
+
+pod 'Swiftline'
+</code></pre>
+
+<h3 id="examples:4c40a97dcf30b230e73eabba1323c21c">Examples</h3>
+
+<p>A list of examples can be found on <a href="https://github.com/oarrabi/Swiftline/tree/master/Examples">github</a></p>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="content-section-a" style="display:none">
+
+
+        <div class="container">
+
+            <div class="row">
+                <div>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Get help</h2>
+                    <ul>
+<li>Join the chat on <a href="https://gitter.im/Swiftline?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">gitter</a></li>
+<li>Ping the author on twitter <a href="http://twitter.com/@ifnottrue">@ifnottrue</a></li>
+<li>Submit an <a href="https://github.com/Swiftline/Swiftline/issues/new">issue</a> on github</li>
+</ul>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8" style="display:none">
+                <ul class="list-inline">
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted small">Copyright &copy; Swiftline All Rights Reserved</p>
+            </div>
+            <div class="col-md-4">
+		Built by <strong>TEAM DIESEL
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="http://swiftline.github.io/js/jquery-1.11.0.js"></script>
+
+
+<script src="http://swiftline.github.io/js/jquery.easing.min.js"></script>
+
+
+<script src="http://swiftline.github.io/js/bootstrap.min.js"></script>
+
+
+<script src="http://swiftline.github.iojs/landing-page.js"></script>
+
+
+
+</body>
+</html>
